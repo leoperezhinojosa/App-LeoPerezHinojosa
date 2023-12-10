@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:text="Iniciar Sesión"
         android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/insertUser"
+        app:layout_constraintBottom_toTopOf="@+id/insertEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.787" />
+        app:layout_constraintVertical_bias="0.808" />
 
     <EditText
-        android:id="@+id/insertUser"
+        android:id="@+id/insertEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Usuario"
@@ -44,18 +44,18 @@
         app:layout_constraintVertical_bias="0.766" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
         android:layout_marginTop="24dp"
         android:text="ENVIAR"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/insertPass"
-        app:layout_constraintVertical_bias="0.368" />
-
+        app:layout_constraintVertical_bias="0.245" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
